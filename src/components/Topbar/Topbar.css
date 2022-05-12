@@ -1,0 +1,50 @@
+.nav-bar {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  font-family: "josefin Sans", sans-serif;
+  z-index: 9999;
+  background-color: white;
+}
+.left-nav,
+.right-nav {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-icon {
+  color: gray;
+  margin-right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.center-nav {
+  flex: 6;
+}
+.top-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.top-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  list-style: none;
+}
+.top-list-item {
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 300;
+  cursor: pointer;
+}
+.top-search-icon {
+  margin-left: 20px;
+  cursor: pointer;
+}
